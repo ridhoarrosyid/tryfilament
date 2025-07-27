@@ -1,6 +1,6 @@
-name: laravel-absensi-pp
+name: tryfilament
 version: latest
-description: Laravel Absensi dengan PHP-FPM dan Nginx
+description: tryfilamanet dengan laravel filament
 container:
   image: alaziz554/absensi-laravel:1.0.18
   port: 80
@@ -34,7 +34,7 @@ env:
     userManaged: true
   - name: DB_SSLMODE
     value: disable
-#insert from github variable/secret
+  #insert from github variable/secret
   - name: DB_HOST
     value: localhost
     userManaged: true
@@ -52,7 +52,6 @@ env:
     userManaged: true
 
 envMap:
-    domain_env: APP_URL
+  domain_env: APP_URL
 
-domain: absensipp.deployaja.id
-
+domain: tryfilament.deployaja.id
